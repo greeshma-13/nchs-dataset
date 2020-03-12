@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.main {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.main_head{
+  margin-top: 50px;
+    margin-bottom: 20px
+}
+
+
+.th {
+  cursor: pointer;
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
+  border-bottom-width: 2px;
+  border: 1px solid #dee2e6;
+  padding: .75rem;
+  display: table-cell;
+  color:#003d71;
+  font-weight: bold;
+}
+
+.ui.search.dropdown{
+  width: 100%;
+  color:#003d71;
+}
+.ui.dropdown .menu {
+  color:#003d71;
+}
+
+.ui.secondary.buttons.button{
+  background-color:#003d71 !important ;
+}
+
+.ui.secondary.button, .ui.secondary.buttons .button {
+  background-color:#003d71 !important ;
+}
+
+.ui.basic.black.button, .ui.basic.black.buttons .button {
+  -webkit-box-shadow: 0 0 0 1px #003d71
+   inset!important;
+  box-shadow: 0 0 0 1px #003d71 inset!important;
+  color: #003d71 !important;
+}
+
+.ui.selection.dropdown {  
+  border-color: #003d71 !important;
+}
+.ui.dropdown .menu>.item{
+ color: #003d71;
+}
+
+.ui.dropdown .menu .active.item{
+  color: #003d71;
+}
+
+.ui.dropdown .menu .selected.item, .ui.dropdown.selected,.ui.default.dropdown:not(.button)>.text, .ui.dropdown:not(.button)>.default.text{
+  color: #003d71;
+}
+.ui.active.search.dropdown input.search:focus+.text, .ui.selection.visible.dropdown>.text:not(.default){
+  color: #003d71;
+}
+
+.ui.selection.visible.dropdown>.text:not(.default),.table-bordered td, .table-bordered th {
+  color: #003d71;
+}
